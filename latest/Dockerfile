@@ -5,7 +5,6 @@ RUN pecl install xdebug && \
 	docker-php-ext-install pcntl sockets && \
 	docker-php-ext-enable xdebug && \
 	apt-get update && \
-	apt-get upgrade && \
 	apt-get install -y \
 		git \
 		wget \
